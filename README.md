@@ -236,3 +236,15 @@ diretório acessível (`interface` do gerenciador de arquivos, compartilhamento 
 3: Fuzz um `argumento`. Se não houver argumento, `adivinhe um`
 
 ## WordPress
+
+1: Caminho de `login padrão`: `/wp-login.php`, `/wp-login`, `/wp-admin`, `/wp-admin.php`, `/Conecte-se`
+
+2: wpscan
+
+3: `Plugin`, `exploit de temas`
+
+4: Painel RCE ( `Aparência-> Editor-> 404 Template` )
+
+5: Faça upload de um plug-in
+
+6: Seu `arquivo de configuração` (para o estágio PE) -> Privilege Escalation - Geralmente em `/var/www/html` `wp-config.php` 
