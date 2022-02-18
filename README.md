@@ -248,3 +248,19 @@ diretório acessível (`interface` do gerenciador de arquivos, compartilhamento 
 5: Faça upload de um plug-in
 
 6: Seu `arquivo de configuração` (para o estágio PE) -> Privilege Escalation - Geralmente em `/var/www/html` `wp-config.php` 
+
+## Jenkins
+
+1: RCE: crie um novo `new project, build section->execute shell, Build now`
+
+## WebDav
+
+1: Use `nikto` para escanear
+
+2: `cadaver http://10.10.10.10`
+
+3: `Credencial` (se necessário)
+
+4: `Put/Get` para `upload/download` arquivo
+
+
