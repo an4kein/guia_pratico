@@ -190,4 +190,10 @@ próxima exploração
     
   - 2: phpinfo + LFI
     - a: Se file_uploads estiver ativado
-    - b: PoC script: https://0xdf.gitlab.io/2020/04/22/htb-nineveh.html#shell-as-www-data-via-phpinfoph
+    - b: PoC script: https://0xdf.gitlab.io/2020/04/22/htb-nineveh.html#shell-as-www-data-via-phpinfophp
+  
+  - 3: Log poison
+    - a: Se o arquivo de log estiver acessível, como `/var/log/vsftpd.log`, `/var/log/apache2/access.log`
+    - b: Para `access.log`, insira a carga útil no agente do usuário. Para `vsftpd.log`, forneça carga útil
+na `seção de nome de usuário`. 
+    - c: `Incluir` o arquivo de log
