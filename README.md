@@ -210,3 +210,13 @@ na `seção de nome de usuário`.
 
 2: Transferir arquivo `inacessível` (arquivo de `back-end`, arquivo `autorizado-requerido`) para
 diretório acessível (`interface` do gerenciador de arquivos, compartilhamento `SMB/FTP`)
+
+## File Upload
+
+1: Não tem nenhuma restrição: Basta fazer o upload!
+
+2: Restrição do lado do cliente: use `burpsuite` para `editar a solicitação` e `encaminhar`
+
+3: Restrição do lado do servidor: altere o `número mágico`, o `nome da extensão do arquivo`, etc.
+
+4: Restrição inexplorável: é uma `toca de coelho`
