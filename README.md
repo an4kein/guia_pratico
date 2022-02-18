@@ -366,3 +366,26 @@ e comando`
 3: `Banco de dados`, `servidor memcached`, etc.
 
 4: Especial `request header`
+
+## GraphQL
+
+1: /graphgl, /graphiql, /graphql.php, /graphql/console, `/__graphql`
+
+2: `Query`
+
+## Deserialization
+
+1: desserialização de Java
+  - a: Encontre a `entrada` que pode ser controlada
+  - b: Garantir o `tipo de carga útil`
+  - c: Use `ysoserial.jar` para `gerar uma carga útil`
+
+2: Python Pickle deserialization
+
+3: PHP deserialization
+
+## Insecure Function
+
+1: `eval()` em `NodeJS` e `Python`
+
+2: `preg_replace()` em `PHP`
