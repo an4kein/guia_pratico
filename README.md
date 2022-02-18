@@ -1,5 +1,22 @@
 # guia_pratico
 
+Antes de começar por aqui, lembre-se que o google e seu melhor amigo!
+
+Basta inserir essa busca e acessar o primeiro link
+
+![image](https://user-images.githubusercontent.com/37910997/154768648-3e5644e4-22e5-4778-bf44-63f8f6c82fba.png)
+
+link tudo sobre como explorar FTP: https://book.hacktricks.xyz/pentesting/pentesting-ftp
+
+Outro exemplo: 
+
+![image](https://user-images.githubusercontent.com/37910997/154768830-44fb9356-3127-4582-a06f-f01e3b285a6b.png)
+
+OU:
+
+![image](https://user-images.githubusercontent.com/37910997/154768903-9aadddde-8a23-4783-bf9c-db59993be995.png)
+
+
 ## Web
 
 1: Verifique se é um serviço HTTP ou HTTPS. Se for HTTPS, verifique seu certificado,se não
