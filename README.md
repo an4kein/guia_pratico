@@ -369,7 +369,7 @@ e comando`
 
 ## GraphQL
 
-1: /graphgl, /graphiql, /graphql.php, /graphql/console, `/__graphql` ou use wordlist para fazer o fuzzing: https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/graphql.txt
+1: `/graphgl`, `/graphiql`, `/graphql.php`, `/graphql/console`, `/__graphql` OU use `wordlist` para fazer o `fuzzing`: https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/graphql.txt
 
 2: `Query`
 
