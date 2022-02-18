@@ -190,5 +190,4 @@ próxima exploração
     
   - 2: phpinfo + LFI
     - a: Se file_uploads estiver ativado
-    - b: PoC script: https://0xdf.gitlab.io/2020/04/22/htb-nineveh.html#shell-
-as-www-data-via-phpinfoph
+    - b: PoC script: https://0xdf.gitlab.io/2020/04/22/htb-nineveh.html#shell-as-www-data-via-phpinfoph
