@@ -1,6 +1,6 @@
 # guia_pratico
 
-Antes de começar por aqui, lembre-se que o google e seu melhor amigo!
+Antes de começar por aqui, lembre-se que o GOOGLE é seu melhor amigo!
 
 Basta inserir essa busca e acessar o primeiro link
 
