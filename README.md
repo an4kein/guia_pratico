@@ -181,3 +181,14 @@ próxima exploração
 8: Se `XXE` for possível, também pode levar a `LFI`
 
 9: A própria LFI tem `algumas abordagens` que levam ao `RCE`
+
+  - 1: Incluir arquivo de sessão
+    - a: Preencha um formulário POST para fazer username= `<?php system("[command]");?>`
+    - b: Observe o valor da sessão e, em seguida, localize o arquivo de sessão php. Normalmente em
+`/var/lib/phpx/sess_[SessionId]`, `/tmp/sess_[SessionId]`
+    - c: Incluir o arquivo de sessão
+    
+  - 2: phpinfo + LFI
+    - a: Se file_uploads estiver ativado
+    - b: PoC script: https://0xdf.gitlab.io/2020/04/22/htb-nineveh.html#shell-
+as-www-data-via-phpinfoph
