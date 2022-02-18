@@ -283,6 +283,14 @@ diretório acessível (`interface` do gerenciador de arquivos, compartilhamento 
 
 2: `Compare as diferenças` com as versões anteriores: `svn diff -r 2:1 --username admin --password admin http://10.10.10.10/svn/rep1`
 
-### Apache
+## Apache
 
 1: `phpinfo.php`
+
+## Tomcat
+
+1: Tente acessar `/manager`
+
+2: `Senha padrão`: `admin:admin`, `tomcat:tomcat`, `admin:NULL`, `admin:s3cr3t`, `tomcat:s3cr3t`, `admin:tomcat`
+
+3: Carregar carga útil `.war`    - #Vc pode gerar usando o msfvenom ou alguma outra tool 
