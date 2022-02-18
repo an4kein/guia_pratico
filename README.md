@@ -263,4 +263,18 @@ diretório acessível (`interface` do gerenciador de arquivos, compartilhamento 
 
 4: `Put/Get` para `upload/download` arquivo
 
+## Version Control
 
+### Git
+
+1: Encontre o `repositório do github` do aplicativo que você está testando
+
+2: Use a ferramenta git para reconstruir o projeto: 
+  -  a. `./gitdumper.sh http://10.10.10.10/.git rep1`
+  -  b. `cd rep1 && git checkout -- .`
+  
+3: Mostrar logs: `git logs`
+
+4: Mostrar log de um commit: `git show [commit]`
+
+### Svn
