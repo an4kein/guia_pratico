@@ -197,3 +197,16 @@ próxima exploração
     - b: Para `access.log`, insira a carga útil no agente do usuário. Para `vsftpd.log`, forneça carga útil
 na `seção de nome de usuário`. 
     - c: `Incluir` o arquivo de log
+    
+  - 4: `send mail`
+    - a: Envie um e-mail com uma carga maliciosa
+    - b: Incluir `/var/mail/www-data`
+  
+10: Alguma `restrição`, precisa de um pequeno `ajuste` no `nome do arquivo`, `extensão do arquivo`, final do nome do arquivo `(%00)`, etc.
+ 
+## Path Traversal
+ 
+1: Leia o  `arquivo do servidor`, como `/etc/passwd`
+
+2: Transferir arquivo `inacessível` (arquivo de `back-end`, arquivo `autorizado-requerido`) para
+diretório acessível (`interface` do gerenciador de arquivos, compartilhamento `SMB/FTP`)
