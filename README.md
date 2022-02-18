@@ -278,3 +278,11 @@ diretório acessível (`interface` do gerenciador de arquivos, compartilhamento 
 4: Mostrar log de um commit: `git show [commit]`
 
 ### Svn
+
+1: Revise os `logs do repositório: svn log --username admin --password admin http://10.10.10.10/svn/rep1`
+
+2: `Compare as diferenças` com as versões anteriores: `svn diff -r 2:1 --username admin --password admin http://10.10.10.10/svn/rep1`
+
+### Apache
+
+1: `phpinfo.php`
