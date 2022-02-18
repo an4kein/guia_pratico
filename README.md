@@ -389,3 +389,13 @@ e comando`
 1: `eval()` em `NodeJS` e `Python`
 
 2: `preg_replace()` em `PHP`
+
+## Rails
+
+1: Acesse uma `URL inexistente` para receber a `mensagem de erro`
+
+## Werzeug/Flask
+
+1: Se o `debug` estiver habilitado, acesse `/console` e inicie o `RCE`
+
+2: `eval()`
