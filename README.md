@@ -356,3 +356,13 @@ e comando`
 1: Adicionar `X-Forwarded-For: 127.0.0.1` no header
 
 2: `SSRF`
+
+## Dependency of Multiple Services
+
+1: Use burpsuite para analisar tráfegos
+
+2: Links apontando para `outras portas` nos `códigos-fonte`
+
+3: `Banco de dados`, `servidor memcached`, etc.
+
+4: Especial `request header`
