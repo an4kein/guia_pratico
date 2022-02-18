@@ -106,6 +106,9 @@ http://10.10.10.10/FUZZ/`
 
 2: Pesquise no Google por `login/credencial` padrão -> Exemplo: `joomla default credentials`
 
+![image](https://user-images.githubusercontent.com/37910997/154769188-b1b5adc1-5ce0-497e-9f02-ca4f0a40f251.png)
+
+
 ## Webroot
 
 1: Se o webroot de um servidor web compartilhar o mesmo diretório com `SMB` ou `FTP`, e
