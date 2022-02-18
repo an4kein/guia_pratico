@@ -320,3 +320,39 @@ diretório acessível (`interface` do gerenciador de arquivos, compartilhamento 
 1: Exploração do plug-in vulnerável
 
 2: Habilite um `plugin específico`
+
+## API Hacking
+
+1: Use `burpsuite` para analisar `solicitações`, `respostas` e `URLs ocultas` (especialmente aqueles não podem ser enumerados por dirb ou gobuster)
+
+2: Enumerar todos os `endpoints`
+
+3: Interface, como interface `GraphQL para Gatsby`
+
+4: Documento oficial
+
+5: Fuzz Endpoint da API  (http://10.10.10.10/endpoint/FUZZ) para verificar `LFI/RFI` e
+Vulnerabilidade de `injeção de comando` com `nome de arquivo`, `comando`, `nome de arquivo codificado
+e comando`
+
+## XXE
+
+1: Pode ser usado para `incluir arquivo local` 
+
+## SSTI
+
+1: tente payload `cmd={{7*7}}` para detectar
+
+## SSRF
+
+1: Acesse o `servidor web interno`
+
+## SSI
+
+1: Preste atenção à página `shtml`
+
+## IP Restriction Bypass
+
+1: Adicionar `X-Forwarded-For: 127.0.0.1` no header
+
+2: `SSRF`
