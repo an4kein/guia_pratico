@@ -369,7 +369,7 @@ e comando`
 
 ## GraphQL
 
-1: /graphgl, /graphiql, /graphql.php, /graphql/console, `/__graphql`
+1: /graphgl, /graphiql, /graphql.php, /graphql/console, `/__graphql` ou use wordlist para fazer o fuzzing: https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/graphql.txt
 
 2: `Query`
 
@@ -378,7 +378,7 @@ e comando`
 1: desserialização de Java
   - a: Encontre a `entrada` que pode ser controlada
   - b: Garantir o `tipo de carga útil`
-  - c: Use `ysoserial.jar` para `gerar uma carga útil`
+  - c: Use `ysoserial.jar` para `gerar uma carga útil`   Download tool: https://github.com/frohoff/ysoserial
 
 2: Python Pickle deserialization
 
