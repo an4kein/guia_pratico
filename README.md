@@ -263,7 +263,9 @@ diretório acessível (`interface` do gerenciador de arquivos, compartilhamento 
 
 ## WordPress
 
-1: Caminho de `login padrão`: `/wp-login.php`, `/wp-login`, `/wp-admin`, `/wp-admin.php`, `/Conecte-se`
+1: Caminho de `login padrão`: `/wp-login.php`, `/wp-login`, `/wp-admin`, `/wp-admin.php`, `/login`
+
+2: Lembre-se de executar um fuzzing usando wordlist: https://github.com/danielmiessler/SecLists/blob/master/Discovery/Web-Content/CMS/wordpress.fuzz.txt
 
 2: wpscan
 
