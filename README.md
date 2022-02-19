@@ -1,5 +1,4 @@
-#### by @an4kein 19/02/2022
-#### Blog: https://an4kein.github.io/
+#### by @an4kein | 19/02/2022 | Blog: https://an4kein.github.io/ 
 
 # guia_pratico
 
