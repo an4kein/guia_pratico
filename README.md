@@ -550,3 +550,7 @@ Ajuste os exploits publicos para funcionar corretamente :)
 Muitas vezes a resposta esta bem na sua cara, tente sempre deixar as coisas mais fáceis sem muitas complicações, continue tentando, você encontra a resposta.
 
 Se a maquina não estiver respondendo normalmente e dando todas as portas fechadas, reinicie a máquina algumas vezes e veja se está normalizada
+
+Pare de ir já exploitando, necessário enumerar primeiro, fazer uma boa enumeração... Depois analise com calma, qual sera a maneira mais viável para explorar.
+
+
