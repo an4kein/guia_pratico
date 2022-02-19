@@ -19,6 +19,8 @@ OU:
 ![image](https://user-images.githubusercontent.com/37910997/154768903-9aadddde-8a23-4783-bf9c-db59993be995.png)
 
 
+Ahhhhh, mantenha sempre as `coisas SIMPLES`
+
 ## Web
 
 1: Verifique se é um serviço HTTP ou HTTPS. Se for HTTPS, verifique seu certificado,se não
