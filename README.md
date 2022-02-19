@@ -541,3 +541,8 @@ Ruby bind shell: https://github.com/secjohn/ruby-shells/blob/master/shell.rb
 ## Unnecessary Authentication
 
 Às vezes, a autenticação é `inútil` ou `desnecessária` para nossa exploração. Não há necessidade de crackear o login -> (brute force)
+
+
+## AJUSTES & HINTS
+
+Ajuste os exploits publicos para funcionar corretamente :)
