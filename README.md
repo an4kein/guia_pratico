@@ -548,3 +548,5 @@ Ruby bind shell: https://github.com/secjohn/ruby-shells/blob/master/shell.rb
 Ajuste os exploits publicos para funcionar corretamente :)
 
 Muitas vezes a resposta esta bem na sua cara, tente sempre deixar as coisas mais fáceis sem muitas complicações, continue tentando, você encontra a resposta.
+
+Se a maquina não estiver respondendo normalmente e dando todas as portas fechadas, reinicie a máquina algumas vezes e veja se está normalizada
