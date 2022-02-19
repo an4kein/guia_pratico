@@ -89,6 +89,8 @@ http://10.10.10.10/private -w dir.txt -x html,php,aspx,txt -t 20`
 
 8: `Repositório/documento oficial` do GitHub do aplicativo da mesma versão
 
+9: Modifique o `user-agent`
+
 ## API Endpoint
 
 0: Semelhante ao `diretório e arquivo`
