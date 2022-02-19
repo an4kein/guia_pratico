@@ -1,3 +1,6 @@
+####  @an4kein
+#### Blog: https://an4kein.github.io/
+
 # guia_pratico
 
 Antes de começar por aqui, lembre-se que o GOOGLE é seu melhor amigo!
